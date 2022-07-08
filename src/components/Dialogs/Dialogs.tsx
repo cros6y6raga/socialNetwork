@@ -26,14 +26,14 @@ const Message = (props: MessageProps) => {
 const Dialogs = () => {
     let dialogsData = [
         {id: 1, name: 'Vladimir'},
-        {id: 2, name: 'Max'},
-        {id: 3, name: 'Djon'},
-        {id: 4, name: 'Bob'},
-        {id: 5, name: 'Alex'},
+        {id: 2, name: 'Nikolay'},
+        {id: 3, name: 'Ivan'},
+        {id: 4, name: 'Aleksandr'},
+        {id: 5, name: 'Irina'},
     ]
     let messagesData = [
         {id: 1, message: 'Hi'},
-        {id: 2, message: 'How is your it-kamasutra?'},
+        {id: 2, message: 'How is your cros6y6raga?'},
         {id: 3, message: 'Yo'},
         {id: 4, message: 'Yo'},
         {id: 5, message: 'Yo'},
@@ -51,7 +51,9 @@ const Dialogs = () => {
                 <div className={s.messages}>
                     <Message message={messagesData[0].message}/>
                     <Message message={messagesData[1].message}/>
-                    <Message message={'Yo'}/>
+                    <Message message={messagesData[2].message}/>
+                    <Message message={messagesData[2].message}/>
+                    <Message message={messagesData[2].message}/>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ const ProfileInfo = () => {
     return (
         <div >
             <div>
-                <img src="https://vjoy.cc/wp-content/uploads/2020/10/dlya_dushi_35_13130628.jpg" alt=""/>
+                <img src='https://football-fun.ru/uploads/40/posts/djevid-bekhjem-pozdravil-inter-majami-s-debjutom-v-mls.jpg' alt=''/>
             </div>
             <div className={s.descriptionBlock}>
                 ava + description
